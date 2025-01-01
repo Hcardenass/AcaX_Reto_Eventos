@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda en Línea</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Tienda en línea</h1>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="eventos.html">Inicio</a>
+          </li>
+          <li>
+            <a href="javascript:alert('hola')">Contacto</a>
+          </li>
+          <li>
+            <a href="carrito.html" id="carrito-link">Carrito (<span id="cart-count">0</span>)</a>
+          </li>
+        </ul>
+      </nav>
+
+  </header>
+
+
+
+<main>
+
+<section class="producto" id="producto1">
+  <img src="./Producto1.jpg" alt="Producto 1">
+  <h2>Producto 1</h2>
+  <p class="">Brownies de chocolate con frambuesas: una combinación irresistible de dulzura y frescura, decorados con chispas de
+  chocolate para un toque extra de indulgencia.</p>
+  <button class="agregar-carrito" data-id="1" data-nombre="Pastel de Chocolate" data-precio="19.99">Agregar al Carrito</button>
+</section>
+
+<section class="producto" id="producto2">
+  <img src="./Producto2.jpg" alt="Producto 2">
+  <h2>Producto 2</h2>
+  <p class="">Brownies de chocolate con frambuesas: una combinación irresistible de dulzura y frescura, decorados con
+    chispas de
+    chocolate para un toque extra de indulgencia.</p>
+  <button class="agregar-carrito" data-id="2" data-nombre="Chesscake" data-precio="29.99">Agregar al Carrito</button>
+</section>
+
+<section class="producto" id="producto3">
+  <img src="./Producto3.jpg" alt="Producto 3">
+  <h2>Producto 3</h2>
+  <p class="">Brownies de chocolate con frambuesas: una combinación irresistible de dulzura y frescura, decorados con
+    chispas de
+    chocolate para un toque extra de indulgencia.</p>
+  <button class="agregar-carrito" data-id="3" data-nombre="keke" data-precio="39.99">Agregar al Carrito</button>
+</section>
+
+</main>
+
+<div class="mensaje" id="mensaje">
+  <p id="mensaje-contenido">Producto añadido al carrito</p>
+</div>
+
+<footer>
+  <p>&copy;2023 Tienda en línea. Todos los derechos reservados</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
